@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bases';
+  number: number = 10;
+  base: number = 5;
+
+  accumulate(value: number){
+    this.number += value;
+  }
+  
 }
